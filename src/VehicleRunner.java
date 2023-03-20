@@ -23,6 +23,10 @@ public class VehicleRunner
  
     // ---- WRITE YOUR TEST CODE BELOW! ----
     // testing all available methods on a Bicycle object
+    Bicycle myBike = new Bicycle("Roadster 700", 2, 7);
+    System.out.println(myBike.getName());
+    System.out.println(myBike.getWheels());
+    System.out.println(myBike.getGearCount());
     
     
     
