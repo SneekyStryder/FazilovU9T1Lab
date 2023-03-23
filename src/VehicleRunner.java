@@ -27,6 +27,10 @@ public class VehicleRunner
     System.out.println(myBike.getName());
     System.out.println(myBike.getWheels());
     System.out.println(myBike.getGearCount());
+    myBike.move(70);
+    myBike.turn(90);
+    myBike.brake(0.5);
+    myBike.ringBell();
     
     
     
